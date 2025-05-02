@@ -1,0 +1,32 @@
+nav{
+    background-color: rgb(21, 97, 97);
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+ 
+}
+nav ul li{
+     color: rgb(147, 177, 185);
+     font-size: large;
+     list-style-type: none;
+     padding: 14px 16px;
+   
+}
+nav ul li:hover {
+  background-color: rgb(37, 75, 81);
+    cursor: pointer;        
+  }
+  body{
+    background-color: rgb(119, 170, 179);
+    margin: 0%;
+  }
+  .container{
+    display: flex;
+    gap: 0.2rem;
+    padding: 1rem;
+  }
